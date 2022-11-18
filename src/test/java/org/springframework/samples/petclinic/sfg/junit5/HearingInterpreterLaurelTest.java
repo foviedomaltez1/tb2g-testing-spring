@@ -13,6 +13,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class HearingInterpreterLaurelTest {
 
 
+    HearingInterpreter hearingInterpreter;
+
     @Test
     void whatIheard() {
         String word = hearingInterpreter.whatIheard();
