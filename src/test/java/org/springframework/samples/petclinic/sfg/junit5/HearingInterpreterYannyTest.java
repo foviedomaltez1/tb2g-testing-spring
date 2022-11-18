@@ -14,7 +14,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 @SpringJUnitConfig(classes = {BaseConfig.class, YannyConfig.class})
 class HearingInterpreterYannyTest {
 
-
     HearingInterpreter hearingInterpreter;
 
     @Test

@@ -14,7 +14,6 @@ import static org.junit.Assert.assertEquals;
 @ContextConfiguration(classes = {BaseConfig.class, YannyConfig.class})
 public class HearingInterpreterYannyTest {
 
-
     HearingInterpreter hearingInterpreter;
 
     @Test
