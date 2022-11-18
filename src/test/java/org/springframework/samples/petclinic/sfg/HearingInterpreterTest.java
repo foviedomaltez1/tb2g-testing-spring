@@ -12,8 +12,6 @@ import static org.junit.Assert.assertEquals;
 @ContextConfiguration(classes = {BaseConfig.class, LaurelConfig.class})
 public class HearingInterpreterTest {
 
-    @Autowired
-    HearingInterpreter hearingInterpreter;
 
     @Test
     public void whatIheard() {

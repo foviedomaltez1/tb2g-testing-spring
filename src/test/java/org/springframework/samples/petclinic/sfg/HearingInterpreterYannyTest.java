@@ -13,8 +13,6 @@ import static org.junit.Assert.assertEquals;
 public class HearingInterpreterYannyTest {
 
 
-    HearingInterpreter hearingInterpreter;
-
     @Test
     public void whatIheard() {
         String word = hearingInterpreter.whatIheard();

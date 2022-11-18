@@ -12,7 +12,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 @SpringJUnitConfig(classes = {BaseConfig.class, LaurelConfig.class})
 class HearingInterpreterLaurelTest {
 
-    HearingInterpreter hearingInterpreter;
 
     @Test
     void whatIheard() {
